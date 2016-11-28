@@ -10,8 +10,8 @@ public class Constants {
     
     public static final String INBOX_FOLDER = "INBOX";
     public static final String SPAM_FOLDER = "SPAM";
-    public static final String EMAIL_ADDRESS = "toshilpamaatta@gmail.com";
-    public static final String PASSWORD = "mypassword@123";
+    public static final String EMAIL_ADDRESS = "toemailaddress@gmail.com";
+    public static final String PASSWORD = "receiverPassword";
 //    public static final String ATTACHMENT_DIR = "F:/shilpa/StoreAttachments";
     public static final String ATTACHMENT_DIR = "src/test/resources/attachments/";
     public static final String STORE_ATTACHMENT_DIR = "test-output/StoreAttachments/";
