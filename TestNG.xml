@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="IntuitQBMail Tests"
+	skipfailedinvocationcounts="false" junit="false" parallel="false"
+	data-provider-thread-count="1" annotations="JDK">
+
+	<test verbose="2" name="P1" annotations="JDK">
+
+		<classes>
+			<class name="com.intuit.gmail.tests.EmaiInvalidToAddressTest"></class>
+			<class name="com.intuit.gmail.tests.EmailBlankBodyTest"></class>
+			<class name="com.intuit.gmail.tests.EmailBlankSubjectTest"></class>
+			<class name="com.intuit.gmail.tests.EmailRegularTest"></class>
+			<class name="com.intuit.gmail.tests.EmailWithAttachmentTest"></class>
+			<class name="com.intuit.gmail.tests.EmailWithMultipleRecipientsTest"></class>
+		</classes>
+	</test>
+</suite>

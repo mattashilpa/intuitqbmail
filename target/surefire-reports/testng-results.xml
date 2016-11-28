@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.intuit.gmail.tests.EmailWithAttachmentTest" duration-ms="4391" started-at="2016-11-28T05:36:58Z" finished-at="2016-11-28T05:37:02Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4391" started-at="2016-11-28T05:36:58Z" finished-at="2016-11-28T05:37:02Z">
+      <class name="com.intuit.gmail.tests.EmailWithAttachmentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.intuit.gmail.tests.EmailWithAttachmentTest@251396ec]" name="setUp" is-config="true" duration-ms="3134" started-at="2016-11-27T23:36:58Z" finished-at="2016-11-27T23:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmailWithAttachment()[pri:0, instance:com.intuit.gmail.tests.EmailWithAttachmentTest@251396ec]" name="testEmailWithAttachment" duration-ms="1240" started-at="2016-11-27T23:37:01Z" finished-at="2016-11-27T23:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailWithAttachment -->
+      </class> <!-- com.intuit.gmail.tests.EmailWithAttachmentTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.intuit.gmail.tests.EmailWithAttachmentTest -->
+</testng-results>
